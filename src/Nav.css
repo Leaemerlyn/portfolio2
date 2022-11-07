@@ -1,0 +1,119 @@
+.navList{
+    justify-content: center;
+    align-items: flex-start !important;
+    border-left: 1.5px solid white;
+    border-right: 1.5px solid white;
+    height: 100vh;
+    margin: 0% 13%;
+    width: 100%;
+}
+
+.center-block{
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    gap: 15px;
+}
+
+.navbar-toggler-icon{
+    --bs-navbar-toggler-icon-bg: url('../public/Menu.png');
+
+}
+
+#myNavIcon{
+    height: 3.5em;
+    width: 3.5em;
+    margin: 0 1em;
+}
+
+#myNavIcon:hover{
+    background-color: rgba(255, 255, 255, 0.345);
+    border-radius: 4px;
+}
+
+#navButton{
+    position: absolute;
+    top: 20px;
+
+}
+
+.navContainer{
+    width: 100%;
+    height: 100vh;
+    min-width: 300px;
+    max-width: 450px;
+    position: absolute;
+    z-index: 10;
+    background-color: #061922;
+}
+
+.nav-link{
+    color:white !important;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.nav-link:hover{
+    color: #F39A68 !important;
+    font-weight: bolder !important;
+}
+
+@media only screen and (max-width: 992px){
+    #myNavIcon{
+        height: 3em;
+        width: 3em;
+        margin: 0;
+    }
+
+    .nav-link{
+        opacity: 0%;
+    }
+
+    .nav-link-open{
+        opacity: 100%;
+    }
+
+    .nav-link-text-showing{
+        transition: none !important;
+        transition-delay: 500ms !important;
+        transition-duration: 500ms !important;
+        transition-property: opacity !important;
+    }
+
+    .nav-link-text-hiding{
+        transition: none !important;
+        transition-duration: 500ms !important;
+        transition-delay: 0ms !important;
+        transition-property: opacity !important;
+    }
+
+    .navContainer{
+        width: 0%;
+        min-width: 0;
+    }
+
+    .navContainerExpanded{
+        width: 100%;
+    }
+
+    .navList{
+        display: flex !important;
+        visibility: hidden;
+        padding: 0;
+        margin: 0;
+        position: relative;
+        left: 15%;
+        max-width: 70%;
+    }
+
+    .navListExpanded{
+        visibility: visible;
+    }
+
+    .navListClosing{
+        transition-delay: 1000ms;
+    }
+
+    .navContainerTransitioning{
+        transition-duration: 1000ms;
+    }
+}
