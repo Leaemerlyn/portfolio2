@@ -12,10 +12,17 @@ export function Nav(){
     const[visible, setVisible] = useState(false);
     return (
         <>
-            <nav className = 'navbar navbar-expand-lg navContainer'>
+            <nav className = 'navbar navbar-expand-lg navContainer mx-0'>
                 <button id = 'navButton' onClick ={
                     ()=> {
                         const newVisible = !visible;
+                        if( newVisible )
+                        {
+                            document.getElementsByTagName('body')[0].classList.add('no-scroll');
+                        }
+                        else {
+                            document.getElementsByTagName('body')[0].classList.remove('no-scroll');
+                        }
                         setVisible(newVisible);
                             const navContainer = document.getElementsByClassName('navContainer')[0];
                             navContainer.classList.toggle('navContainerExpanded');

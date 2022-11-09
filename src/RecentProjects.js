@@ -4,10 +4,14 @@ import {NameBanner} from './NameBanner';
 export function RecentProjects() {
     return(
         <>
-            <img src ={require('./decoration.png')} id= 'decoration'/>
-            <div className = 'main-width'>
-                <NameBanner />
+            <div className = 'row'>
+                <div className = 'main-width col-lg-9'>
+                    <NameBanner />
 
+                </div>
+                <div className="col-lg-3">
+                <img src ={require('./decoration.png')} id= 'decoration'/>
+                </div>
             </div>
         </>
     )

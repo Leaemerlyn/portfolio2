@@ -5,9 +5,9 @@ import {RecentProjects} from './RecentProjects';
 
 function App() {
   return (
-    <div className="App">
+    <div className='App container-fluid'>
       <div className ='row'>
-        <div className ='col-lg-3'>
+        <div className ='col-lg-3 px-0'>
           <Nav />
         </div>
 

@@ -1,12 +1,13 @@
 .main-width{
-    max-width: 1392px;
-    width: 80%;
-    margin: 180px 5%; 
+    padding: 180px 5%; 
 }
 
 #decoration{
-    position: fixed;
+    position: sticky;
+    top: 0;
     right: 50px;
+    width: 100%;
+    padding-right: 0;
 }
 
 @media only screen and (max-width: 992px){
