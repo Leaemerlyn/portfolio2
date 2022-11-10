@@ -10,6 +10,11 @@
     padding-right: 0;
 }
 
+.button-collection{
+    gap: 30px;
+}
+
+
 @media only screen and (max-width: 992px){
     .main-width{
         width: 95%;
@@ -18,5 +23,12 @@
 
     #decoration{
         visibility: hidden;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .button-collection{
+        flex-direction: column;
+        gap: 0px;
     }
 }

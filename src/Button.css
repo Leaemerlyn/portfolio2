@@ -1,0 +1,15 @@
+.my-button{
+    border-color: white;
+    color: white;
+    padding: 15px 37.5px;
+    width: fit-content;
+    border-radius: 0;
+    margin: 15px 0px;
+    font-family: 'Roboto Mono', monospace;
+}
+@media only screen and (max-width: 768px){
+    .my-button{
+        width: 100%;
+        max-width: 525px;
+    }
+}
