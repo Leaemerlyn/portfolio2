@@ -28,4 +28,11 @@
   position: relative;
 }
 
+@media only screen and (max-width: 768px){
+  .col-lg-9{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+  }
+}
 

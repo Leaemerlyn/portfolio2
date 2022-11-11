@@ -9,7 +9,9 @@ export function RecentProjects() {
         <>
             <div className = 'row'>
                 <div className = 'main-horizontal-padding main-vertical-padding col-lg-9'>
+                    <div className="name-banner-container">
                     <NameBanner />
+                    </div>
                     <div className = 'row mx-0 button-collection'>
                         <Button href={pdf} buttonText='Resume'/>
                         <Button href={'https://www.linkedin.com/in/lea-emerlyn-7b8170168/'} buttonText = 'LinkedIn'/>

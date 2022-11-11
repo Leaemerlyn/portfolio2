@@ -31,9 +31,17 @@
     }
 }
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 700px){
     .button-collection{
         flex-direction: column;
+        flex: 1;
         gap: 0px;
+        align-content: center;
+    }
+
+    .name-banner-container{
+        display: flex;
+        flex-direction: column;
+        margin: auto;
     }
 }
