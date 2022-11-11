@@ -1,16 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.9b047cf4.css",
-    "main.js": "/static/js/main.f4c51ae5.js",
+    "main.css": "/static/css/main.65a2205e.css",
+    "main.js": "/static/js/main.ed785e48.js",
     "static/media/Lea_Emerlyn_Resume.pdf": "/static/media/Lea_Emerlyn_Resume.f53c72d3261775bd6aea.pdf",
+    "static/media/MedBuddy.png": "/static/media/MedBuddy.1089caa7593b0f6b739e.png",
+    "static/media/GroupShopping.png": "/static/media/GroupShopping.0b96f7f27352897fc146.png",
     "static/media/Rectangle 29.jpeg": "/static/media/Rectangle 29.fdde600b82dfd289509c.jpeg",
+    "static/media/Windstax.png": "/static/media/Windstax.27cded8402150250d7f2.png",
     "static/media/OptimaLTPro-Roman.otf": "/static/media/OptimaLTPro-Roman.01f2ca7a562b667ced34.otf",
     "index.html": "/index.html",
-    "main.9b047cf4.css.map": "/static/css/main.9b047cf4.css.map",
-    "main.f4c51ae5.js.map": "/static/js/main.f4c51ae5.js.map"
+    "main.65a2205e.css.map": "/static/css/main.65a2205e.css.map",
+    "main.ed785e48.js.map": "/static/js/main.ed785e48.js.map"
   },
   "entrypoints": [
-    "static/css/main.9b047cf4.css",
-    "static/js/main.f4c51ae5.js"
+    "static/css/main.65a2205e.css",
+    "static/js/main.ed785e48.js"
   ]
 }
