@@ -1,5 +1,10 @@
-.main-width{
-    padding: 180px 5%; 
+.main-horizontal-padding{
+    padding: 5%;
+}
+
+.main-vertical-padding{
+    padding-top: 180px;
+    padding-bottom: 0px;
 }
 
 #decoration{
@@ -22,7 +27,7 @@
     }
 
     #decoration{
-        visibility: hidden;
+        display: none;
     }
 }
 

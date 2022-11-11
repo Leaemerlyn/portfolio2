@@ -8,9 +8,16 @@
   color: white;
 }
 
+#main{
+  max-width: 1920px;
+  width: 100%;
+}
+
 .App {
   background-color: #061922;
   min-height: 100vh;
+  justify-content: center;
+  display: flex;
 }
 
 .col-lg-3{

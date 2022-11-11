@@ -5,12 +5,12 @@ header{
     line-height: 1.2em;
 }
 
-h1{
+#name-banner-role{
     font-size: 2em;
     color: #F39A68;
 }
 
-h2{
+#name-banner-description{
     font-size: 1.25em;
     margin-top: 1em;
 }

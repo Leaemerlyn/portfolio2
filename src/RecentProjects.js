@@ -2,12 +2,13 @@ import './RecentProjects.css';
 import {NameBanner} from './NameBanner';
 import {Button} from './Button'
 import pdf from './Lea_Emerlyn_Resume.pdf';
+import { ProjectCard } from './ProjectCard';
 
 export function RecentProjects() {
     return(
         <>
             <div className = 'row'>
-                <div className = 'main-width col-lg-9'>
+                <div className = 'main-horizontal-padding main-vertical-padding col-lg-9'>
                     <NameBanner />
                     <div className = 'row mx-0 button-collection'>
                         <Button href={pdf} buttonText='Resume'/>
@@ -20,6 +21,13 @@ export function RecentProjects() {
                 <img src ={require('./decoration.png')} id= 'decoration'/>
                 </div>
             </div>
+
+            <div className ='row'>
+                <div className = 'col-lg-12 main-horizontal-padding'>
+                    <ProjectCard title= 'Spotify'/>
+                </div>
+            </div>
         </>
     )
 }
+
