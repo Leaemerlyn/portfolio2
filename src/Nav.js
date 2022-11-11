@@ -50,9 +50,9 @@ export function Nav(){
 
                 <div className = 'collapse navbar-collapse navList'>
                     <div className = 'center-block'>
-                        <NavLink to='/' className="nav-link active text-color">01 Recent Projects</NavLink>
+                        <NavLink to='/' className="nav-link text-color">01 Recent Projects</NavLink>
                         <a className="nav-link text-color" href="#">02 About</a>
-                        <a className="nav-link text-color" href="#">03 Past Projects</a>
+                        <NavLink to= '/PastProjects' className="nav-link text-color">03 Past Projects</NavLink>
                     </div>
                 </div>
             </nav>
