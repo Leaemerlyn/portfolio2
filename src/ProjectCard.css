@@ -64,5 +64,9 @@
         padding: 5% 0% 0%;
         width: 100%;
     }
+
+    .cardInfo{
+        width: 100%
+    }
 }
 
