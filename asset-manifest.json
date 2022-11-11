@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.9877af0f.css",
+    "main.css": "/static/css/main.9b047cf4.css",
     "main.js": "/static/js/main.f4c51ae5.js",
     "static/media/Lea_Emerlyn_Resume.pdf": "/static/media/Lea_Emerlyn_Resume.f53c72d3261775bd6aea.pdf",
     "static/media/Rectangle 29.jpeg": "/static/media/Rectangle 29.fdde600b82dfd289509c.jpeg",
     "static/media/OptimaLTPro-Roman.otf": "/static/media/OptimaLTPro-Roman.01f2ca7a562b667ced34.otf",
     "index.html": "/index.html",
-    "main.9877af0f.css.map": "/static/css/main.9877af0f.css.map",
+    "main.9b047cf4.css.map": "/static/css/main.9b047cf4.css.map",
     "main.f4c51ae5.js.map": "/static/js/main.f4c51ae5.js.map"
   },
   "entrypoints": [
-    "static/css/main.9877af0f.css",
+    "static/css/main.9b047cf4.css",
     "static/js/main.f4c51ae5.js"
   ]
 }
