@@ -2,57 +2,60 @@ import './Nav.css'
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
 
-function addTemporaryClass( domElement, className )
+function setTemporaryState(setter)
 {
-    domElement.classList.add(className);
-    setTimeout(() => {domElement.classList.remove(className)}, 1000);
+    setter(true);
+    setTimeout(() => setter(false), 1000);
+}
+
+function getNavContainerCss(visible, showing, hiding)
+{
+    return 'navbar navbar-expand-lg navContainer mx-0' + (visible ? ' navContainerExpanded' : '') + (hiding || showing ? ' navContainerTransitioning' : '');
+}
+
+function getNavListCss(visible, showing, hiding)
+{
+    return 'collapse navbar-collapse navList' + (visible ? ' navListExpanded' : '') + (hiding ? ' navListClosing' : '');
+}
+
+function getNavLinkCss(visible, showing, hiding)
+{
+    return 'nav-link text-color' + (visible ? ' nav-link-open' : '') + (hiding ? ' nav-link-text-hiding' : '') + (showing ? ' nav-link-text-showing' : '');
 }
 
 export function Nav(){
     const[visible, setVisible] = useState(false);
+    const[showing, setShowing] = useState(false);
+    const[hiding, setHiding] = useState(false);
+
+    function toggleNavBar()
+    {
+        const newVisible = !visible;
+        if( newVisible )
+        {
+            document.getElementsByTagName('body')[0].classList.add('no-scroll');
+            setTemporaryState(setShowing);
+        }
+        else {
+            document.getElementsByTagName('body')[0].classList.remove('no-scroll');
+            setTemporaryState(setHiding);
+        }
+        setVisible(newVisible);
+    }
+
     return (
         <>
-            <nav className = 'navbar navbar-expand-lg navContainer mx-0'>
-                <button id = 'navButton' onClick ={
-                    ()=> {
-                        const newVisible = !visible;
-                        if( newVisible )
-                        {
-                            document.getElementsByTagName('body')[0].classList.add('no-scroll');
-                        }
-                        else {
-                            document.getElementsByTagName('body')[0].classList.remove('no-scroll');
-                        }
-                        setVisible(newVisible);
-                            const navContainer = document.getElementsByClassName('navContainer')[0];
-                            navContainer.classList.toggle('navContainerExpanded');
-                            const navList = document.getElementsByClassName('navList')[0];
-                            addTemporaryClass(navContainer, 'navContainerTransitioning');
-                            if( !newVisible ) {
-                                addTemporaryClass(navList, 'navListClosing');
-                            }
-                            navList.classList.toggle('navListExpanded');
-                            const navLinks = document.getElementsByClassName
-                            ('nav-link');
-                            for( let link of navLinks ) {
-                                link.classList.toggle("nav-link-open");
-                                if( newVisible ) {
-                                    addTemporaryClass(link, 'nav-link-text-showing');
-                                }
-                                else {
-                                    addTemporaryClass(link, 'nav-link-text-hiding');
-                                }
-                            }
-                        }}
+            <nav className = {getNavContainerCss(visible, showing, hiding)}>
+                <button id = 'navButton' onClick ={toggleNavBar}
                         className="navbar-toggler" type="button">
                     <span id = 'myNavIcon' className="navbar-toggler-icon"></span>
                 </button>
 
-                <div className = 'collapse navbar-collapse navList'>
+                <div className = {getNavListCss(visible, showing, hiding)}>
                     <div className = 'center-block'>
-                        <NavLink to='/' className="nav-link text-color">01 Recent Projects</NavLink>
-                        <a className="nav-link text-color" href="#">02 About</a>
-                        <NavLink to= '/PastProjects' className="nav-link text-color">03 Past Projects</NavLink>
+                        <NavLink to='/' onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)}>01 Recent Projects</NavLink>
+                        <a className={getNavLinkCss(visible, showing, hiding)} href="#">02 About</a>
+                        <NavLink to= '/PastProjects' onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)}>03 Past Projects</NavLink>
                     </div>
                 </div>
             </nav>
