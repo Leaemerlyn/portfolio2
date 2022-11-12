@@ -4,6 +4,8 @@ import './ProjectCard.css';
 export function ProjectCard(props){
     let data = ProjectCardData[props.title];
     return(
+        <div className ='myCardContainer'>
+        <div className ='border'></div>
         <div className = 'myCard'>
             <div className = 'cardInfo'>
                 <h1 className = 'cardTitle'>{props.title}</h1>
@@ -15,6 +17,8 @@ export function ProjectCard(props){
             <div className = 'coverImage'>
                 <img src = {data.coverImage} alt =''/>
             </div>
+        </div>
+
         </div>
     )
 }
