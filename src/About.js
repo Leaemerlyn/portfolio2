@@ -17,12 +17,50 @@ export function About(){
         </div>            
         <hr></hr>
         <div className='row'>
-            <div className ='col-md-6'>
-                <p>hi</p>
+            <div className ='col-6 about-columns-padding'>
+                <p className ='about-headings'>Skills</p>
+                <p className = 'about-columns'>
+                    <span className ='about-heading2'>Design</span><br/>
+                    Figma<br/> 
+                    Adobe CC <br/> 
+                    Fusion 360
+                </p>
             </div>
-            <div className='col-md-6'>
-                <p>hi</p>
+            <div className='col-6 about-columns-padding'>
+                <p className = 'about-headings'>&nbsp;</p>
+                <p className ='about-columns'>
+                    <span className ='about-heading2'>Programming</span><br/>
+                    Python<br/>
+                    JavaScript<br/>
+                    Java 
+                </p>
             </div>
+        </div>
+        <hr></hr>
+        <div className = 'row'>
+            <div className='col-6 about-columns-padding'>
+                <p className = 'about-headings'>Education</p>
+                <p className = 'about-columns'>
+                    <span className='about-heading2'>Master's</span> <br/>
+                    University of Pennsylvania<br/>
+                    Expected Grduation: 2024<br/>
+                </p>
+            </div>
+            <div className='col-6 about-columns-padding'>
+                <p className = 'about-headings'>&nbsp;</p>
+                <p>
+                    <span className ='about-heading2'>Bachelor's</span><br/>
+                    Carnegie Mellon University<br/>
+                </p>
+            </div>
+        </div>
+        <hr></hr>
+        <div className ='row'>
+            <div className='col-12 about-columns-padding'>
+                <p className ='about-headings'>Other Stuff About Me</p>
+                <p> Hello from the other side</p>
+            </div>
+
         </div>
         </>
     )

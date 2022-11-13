@@ -54,7 +54,7 @@ export function Nav(){
                 <div className = {getNavListCss(visible, showing, hiding)}>
                     <div className = 'center-block'>
                         <NavLink to='/' onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)}>01 Recent Projects</NavLink>
-                        <NavLink to='/About' className={getNavLinkCss(visible, showing, hiding)} >02 About</NavLink>
+                        <NavLink to='/About'  onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)} >02 About</NavLink>
                         <NavLink to= '/PastProjects' onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)}>03 Past Projects</NavLink>
                     </div>
                 </div>

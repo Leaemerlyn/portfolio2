@@ -23,12 +23,13 @@
     align-self: center;
     display: flex;
     flex-direction: column;
-    font-size: 1.2em;
+    font-size: 1.1em;
     padding: 0px 5%;
 }
 
 .firstRow{
-    margin: 150px 0px 100px;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 
 #hello-greeting{
@@ -43,6 +44,28 @@ hr{
     color: white;
     width: 97%;
 }
+
+.about-headings{
+    font-size: 1em;
+    font-family: 'Roboto Mono' , monospace;
+    line-height: 0.4;
+}
+
+.about-columns-padding{
+    padding: 4% 5%;
+}
+
+.about-heading2{
+    color: #F39A68;
+    font-size: 1.5em;
+    letter-spacing: 0.05em;
+    line-height: 3;
+}
+
+.about-columns{
+    line-height: 1.65;
+}
+
 
 @media only screen and (max-width: 768px){
     .profilePicContainer{
