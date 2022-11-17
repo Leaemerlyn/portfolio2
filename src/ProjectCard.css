@@ -41,6 +41,11 @@
     flex: none;
 }
 
+.myCardContainer{
+    color:white;
+    text-decoration: none;
+}
+
 .cardInfo{
     display: flex;
     position: relative;
@@ -61,6 +66,7 @@
     flex: 1;
     object-fit: cover;
     border-radius: 8px;
+    margin: 0px;
 }
 
 .pills{

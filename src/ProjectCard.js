@@ -1,14 +1,15 @@
 import {ProjectCardData} from './ProjectCardData';
 import './ProjectCard.css';
+import { NavLink } from 'react-router-dom';
 
 export function ProjectCard(props){
     let data = ProjectCardData[props.title];
     return(
-        <div className ='myCardContainer'>
+        <NavLink to={'../Projects/' + props.title} className ='myCardContainer'>
         <div className ='border'></div>
         <div className = 'myCard'>
             <div className = 'cardInfo'>
-                <h1 className = 'cardTitle'>{props.title}</h1>
+                <p className = 'cardTitle'>{data.projectName}</p>
                 <p className = 'cardDescription'>{data.description}</p>
                 <div className = 'pills'>
                     {data.pills.map((element)=>(<div key = {element} className = 'pill'><p>{element}</p></div>))}
@@ -19,6 +20,6 @@ export function ProjectCard(props){
             </div>
         </div>
 
-        </div>
+        </NavLink>
     )
 }

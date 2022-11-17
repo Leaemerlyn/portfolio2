@@ -4,8 +4,8 @@ export function NameBanner(){
     return(
         <>
             <header>Lea Emerlyn</header>
-            <h1 id = 'name-banner-role'>UX Designer @ JPMorgan</h1>
-            <h2 id = 'name-banner-description'>Hello. This is some real text here. GoodBye.</h2>
+            <p id = 'name-banner-role'>UX Designer @ JPMorgan</p>
+            <p id = 'name-banner-description'>Hello. This is some real text here. GoodBye.</p>
         </>
     )
 }
