@@ -1,11 +1,12 @@
 import {ProjectCardData} from './ProjectCardData';
 import './ProjectCard.css';
 import { NavLink } from 'react-router-dom';
+import { backToTop } from './utility';
 
 export function ProjectCard(props){
     let data = ProjectCardData[props.title];
     return(
-        <NavLink to={'../Projects/' + props.title} className ='myCardContainer'>
+        <NavLink to={'../Projects/' + props.title} className ='myCardContainer' onClick={backToTop}>
         <div className ='border'></div>
         <div className = 'myCard'>
             <div className = 'cardInfo'>

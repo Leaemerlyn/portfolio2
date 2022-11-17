@@ -54,6 +54,6 @@ export let ProjectCardData = {
         description: 'How might we create a convenient and serendipitous grocery shopping during pandemic.' ,
         pills:['2020', 'Responsive Design', 'UX' ,],
         coverImage: require('./GroupShopping.png')
-    },
+    }
 
 }

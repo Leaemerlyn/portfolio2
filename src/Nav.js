@@ -1,6 +1,7 @@
 import './Nav.css'
 import React, { useState } from 'react';
 import { NavLink } from "react-router-dom";
+import {backToTop} from './utility'
 
 function setTemporaryState(setter)
 {
@@ -43,6 +44,11 @@ export function Nav(){
         setVisible(newVisible);
     }
 
+function onNavLinkClick(){
+    toggleNavBar();
+    backToTop();
+}
+
     return (
         <>
             <nav className = {getNavContainerCss(visible, showing, hiding)}>
@@ -53,9 +59,9 @@ export function Nav(){
 
                 <div className = {getNavListCss(visible, showing, hiding)}>
                     <div className = 'center-block'>
-                        <NavLink to='/' onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)}>01 Recent Projects</NavLink>
-                        <NavLink to='/About'  onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)} >02 About</NavLink>
-                        <NavLink to= '/PastProjects' onClick ={toggleNavBar} className={getNavLinkCss(visible, showing, hiding)}>03 Past Projects</NavLink>
+                        <NavLink to='/' onClick ={onNavLinkClick} className={getNavLinkCss(visible, showing, hiding)}>01 Recent Projects</NavLink>
+                        <NavLink to='/About'  onClick ={onNavLinkClick} className={getNavLinkCss(visible, showing, hiding)} >02 About</NavLink>
+                        <NavLink to= '/PastProjects' onClick ={onNavLinkClick} className={getNavLinkCss(visible, showing, hiding)}>03 Past Projects</NavLink>
                     </div>
                 </div>
             </nav>

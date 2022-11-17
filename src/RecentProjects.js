@@ -5,6 +5,7 @@ import pdf from './Lea_Emerlyn_Resume.pdf';
 import { ProjectCard } from './ProjectCard';
 
 export function RecentProjects() {
+
     return(
         <>
             <div className = 'row'>

@@ -9,19 +9,19 @@ export function ProjectDetailsIntro(props){
             <img className='hero' src={data.url}/>
             <div className='row description'>
                 <div className = 'col-3'>
-                    <p>Role</p>
+                    <p className ='descriptionHeading'>ROLE</p>
                     <p className='descriptionDetails'>{data.role}</p>
                 </div>
                 <div className = 'col-3'>
-                    <p>Time</p> 
+                    <p className='descriptionHeading'>TIME</p> 
                     <p className='descriptionDetails'>{data.time}</p>
                 </div>
                 <div className = 'col-3'>
-                    <p>Team</p>
+                    <p className='descriptionHeading'>TEAM</p>
                     <p className='descriptionDetails'>{data.team}</p>
                 </div>
                 <div className = 'col-3'>
-                    <p>Tools</p>
+                    <p className='descriptionHeading'>TOOLS</p>
                     <p className='descriptionDetails'>{data.tools}</p>
                 </div>
             </div>
