@@ -24,5 +24,23 @@ export let ProjectDetailsData = {
         team: 'Kylon Chiang, Elan Suder, Matthew Guo',
         tools: 'Figma, Personas, Semi-Structured Interviews, Parallel Prototyping, Journey Mapping, Mobile-First Design',
         overview: 'change this'
+    },
+
+    PublicArt : {
+        url: require('../Assets/ProjectCoverImages/GroupShopping.png'),
+        role: 'UX Researcher/Designer',
+        time: 'January 2020 — May 2020',
+        team: 'Michelle Lee, Michelle Tsang, Lauren Park, Yue (Carol) Jiang',
+        tools: 'Figma, Semi-Structured Interviews, Think-Aloud Protocols, Speed Dating, Experience Prototyping',
+        overview: 'change this'
+    },
+
+    FirstPortfolio : {
+        url: require('../Assets/ProjectCoverImages/GroupShopping.png'),
+        role: 'UX Researcher/Designer',
+        time: 'January 2020 — May 2020',
+        team: 'Michelle Lee, Michelle Tsang, Lauren Park, Yue (Carol) Jiang',
+        tools: 'Figma, Semi-Structured Interviews, Think-Aloud Protocols, Speed Dating, Experience Prototyping',
+        overview: 'change this'
     }
 }

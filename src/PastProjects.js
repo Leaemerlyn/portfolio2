@@ -9,9 +9,10 @@ export function PastProjects(){
             <ProjectCard title= 'MedBuddy'/>
             <ProjectCard title= 'WindStax' />
             <ProjectCard title= 'GroupShopping' />
-            <ProjectCard title='firstPortfolio'/>
+            <ProjectCard title= 'PublicArt' />
             <ProjectCard title='secondPortfolio'/>
             <ProjectCard title='bunbun'/>
+            <ProjectCard title='firstPortfolio'/>
         </div>
         </>
     )

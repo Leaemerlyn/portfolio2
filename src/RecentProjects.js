@@ -27,7 +27,7 @@ export function RecentProjects() {
 
             <div className ='row'>
                 <div className = 'col-lg-12 main-horizontal-padding'>
-                    <ProjectCard title= 'Kiavi'/>
+                    <ProjectCard title= 'Block'/>
                 </div>
             </div>
         </>

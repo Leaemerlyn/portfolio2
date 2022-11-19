@@ -1,8 +1,8 @@
 export let ProjectCardData = {
-    Kiavi : {
-        projectName : 'Kiavi',
-        description: "This is the description that is really long hehehe hi hi hi i love bread",
-        pills: ['API' , 'React', 'WebDev'],
+    Block : {
+        projectName : 'Block',
+        description: "Coming Soom",
+        pills: ['Unity'],
         coverImage: require('./Assets/Rectangle 29.jpeg')
     },
 
@@ -28,10 +28,10 @@ export let ProjectCardData = {
         coverImage: require('./Assets/ProjectCoverImages/GroupShopping.png')
     },
 
-    publicArtEngagement : {
+    PublicArt : {
         projectName: 'Public Art Engagement',
-        description: 'How might we create a convenient and serendipitous grocery shopping during pandemic.' ,
-        pills:['2020', 'Responsive Design', 'UX' ,],
+        description: 'Creating a platform for users to engage in conversations with each other and with artists' ,
+        pills:['2020', 'UX Research', 'UX Design' ,],
         coverImage: require('./Assets/ProjectCoverImages/GroupShopping.png')
     },
 
