@@ -1,7 +1,7 @@
 import './RecentProjects.css';
 import {NameBanner} from './NameBanner';
 import {Button} from './Button'
-import pdf from './Lea_Emerlyn_Resume.pdf';
+import pdf from './Assets/Lea_Emerlyn_Resume.pdf';
 import { ProjectCard } from './ProjectCard';
 
 export function RecentProjects() {
@@ -21,7 +21,7 @@ export function RecentProjects() {
 
                 </div>
                 <div className="col-lg-3">
-                <img src ={require('./decoration.png')} id= 'decoration'/>
+                <img src ={require('./Assets/decoration.png')} id= 'decoration'/>
                 </div>
             </div>
 

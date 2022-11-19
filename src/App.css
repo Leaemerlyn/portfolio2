@@ -3,11 +3,6 @@
   src: url(../public/Optima/OptimaLTPro-Roman.otf);
 }
 
-*{
-  font-family: Optima, 'Cormorant Garamond', 'serif';
-  color: white;
-}
-
 #main{
   max-width: 1920px;
   width: 100%;

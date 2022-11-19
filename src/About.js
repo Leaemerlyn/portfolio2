@@ -6,7 +6,7 @@ export function About(){
         <div className ='row firstRow'>
             <div className = 'col-md-5'>
                 <div className='profilePicContainer'>
-                    <img src={require('./Rectangle 29.jpeg')} id='profilePic'/>
+                    <img src={require('./Assets/Rectangle 29.jpeg')} id='profilePic'/>
                 </div>
             </div>
             <div className = 'col-md-7 intro-text'>

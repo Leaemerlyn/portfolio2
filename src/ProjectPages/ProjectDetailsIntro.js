@@ -27,7 +27,7 @@ export function ProjectDetailsIntro(props){
             </div>
 
             <div className='row'>
-                <h1>Overview</h1>
+                <h1>OVERVIEW</h1>
                 <p>{data.overview}</p>
             </div>
         </>

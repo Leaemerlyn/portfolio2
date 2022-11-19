@@ -1,6 +1,6 @@
 #profilePic{
-    mask-image: url('./hexagon.png');
-    -webkit-mask-image: url('./hexagon.png');
+    mask-image: url('./Assets/hexagon.png');
+    -webkit-mask-image: url('./Assets/hexagon.png');
     mask-mode: alpha;
     -webkit-mask-mode: alpha;
     object-fit: cover;
