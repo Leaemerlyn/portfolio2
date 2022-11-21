@@ -16,11 +16,11 @@ export function WindStax(){
             <h1>SOLUTION</h1>
 
             <div className="row">
-                <div className="col-7"> 
+                <div className="col-md-7"> 
                     <iframe title='figma-embed'width="100%" height='500' src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Ffile%2Fxte1rf10mSllvG3AYH7CnP%2FIxDS2-Group-B5-(Copy)%3Fnode-id%3D184%253A1578%26t%3D7HcyEeHKS7DnAqqh-1" allowFullScreen></iframe>
                 </div>
 
-                <div className="col-5">
+                <div className="col-md-5">
                     <iframe title="figma-embed2" width="100%"height='500' src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fxte1rf10mSllvG3AYH7CnP%2FIxDS2-Group-B5-(Copy)%3Fpage-id%3D184%253A1578%26node-id%3D366%253A2407%26viewport%3D331%252C85%252C0.1%26scaling%3Dscale-down%26starting-point-node-id%3D366%253A2407" allowFullScreen></iframe>
                 </div>
             </div>

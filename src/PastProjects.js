@@ -11,7 +11,7 @@ export function PastProjects(){
             <ProjectCard title= 'GroupShopping' />
             <ProjectCard title= 'PublicArt' />
             <ProjectCard title='secondPortfolio'/>
-            <ProjectCard title='bunbun'/>
+            <ProjectCard title='BunBun'/>
             <ProjectCard title='firstPortfolio'/>
         </div>
         </>

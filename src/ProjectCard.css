@@ -74,6 +74,7 @@
     flex-direction: row;
     margin-top: auto;
     gap: 15px;
+    flex-wrap: wrap;
 }
 
 .pill{

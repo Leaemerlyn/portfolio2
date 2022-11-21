@@ -1,7 +1,7 @@
 export let ProjectCardData = {
     Block : {
         projectName : 'Block',
-        description: "Coming Soom",
+        description: "Coming Soon",
         pills: ['Unity'],
         coverImage: require('./Assets/Rectangle 29.jpeg')
     },
@@ -32,28 +32,28 @@ export let ProjectCardData = {
         projectName: 'Public Art Engagement',
         description: 'Creating a platform for users to engage in conversations with each other and with artists' ,
         pills:['2020', 'UX Research', 'UX Design' ,],
-        coverImage: require('./Assets/ProjectCoverImages/GroupShopping.png')
+        coverImage: require('./Assets/ProjectCoverImages/PublicArt.png')
     },
 
     firstPortfolio : {
         projectName: 'My First Portfolio',
         description: 'How might we create a convenient and serendipitous grocery shopping during pandemic.' ,
-        pills:['2020', 'Responsive Design', 'UX' ,],
-        coverImage: require('./Assets/ProjectCoverImages/GroupShopping.png')
+        pills:['2020', 'HTML/CSS', 'UI' ,],
+        coverImage: require('./Assets/ProjectCoverImages/FirstPortfolio.png')
     },
 
     secondPortfolio : {
         projectName: 'My Second Portfolio',
         description: 'How might we create a convenient and serendipitous grocery shopping during pandemic.' ,
-        pills:['2020', 'Responsive Design', 'UX' ,],
-        coverImage: require('./Assets/ProjectCoverImages/GroupShopping.png')
+        pills:['2020' , 'HTML/CSS','Javascript', 'Bootstrap', 'UI'],
+        coverImage: require('./Assets/ProjectCoverImages/SecondPortfolio.png')
     },
 
-    bunbun : {
+    BunBun : {
         projectName: 'Bun Bun Shop',
         description: 'How might we create a convenient and serendipitous grocery shopping during pandemic.' ,
-        pills:['2020', 'Responsive Design', 'UX' ,],
-        coverImage: require('./Assets/ProjectCoverImages/GroupShopping.png')
+        pills:['2020', 'HTML/CSS', 'UX'],
+        coverImage: require('./Assets/ProjectCoverImages/BunBun.png')
     }
 
 }

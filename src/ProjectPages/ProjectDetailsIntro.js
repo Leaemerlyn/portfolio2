@@ -6,21 +6,23 @@ export function ProjectDetailsIntro(props){
     let data = ProjectDetailsData[props.title];
     return(
         <>
-            <img className='hero' src={data.url}/>
+            <img className='hero' src={data.url} alt='Project Banner'/>
+            <p className='projectTitle'>-{data.title}-</p>
+            <hr/>
             <div className='row description'>
-                <div className = 'col-3'>
+                <div className = 'col-md-3'>
                     <p className ='descriptionHeading'>ROLE</p>
                     <p className='descriptionDetails'>{data.role}</p>
                 </div>
-                <div className = 'col-3'>
+                <div className = 'col-md-3'>
                     <p className='descriptionHeading'>TIME</p> 
                     <p className='descriptionDetails'>{data.time}</p>
                 </div>
-                <div className = 'col-3'>
+                <div className = 'col-md-3'>
                     <p className='descriptionHeading'>TEAM</p>
                     <p className='descriptionDetails'>{data.team}</p>
                 </div>
-                <div className = 'col-3'>
+                <div className = 'col-md-3'>
                     <p className='descriptionHeading'>TOOLS</p>
                     <p className='descriptionDetails'>{data.tools}</p>
                 </div>
