@@ -5,7 +5,7 @@ export function NameBanner(){
         <>
             <header>Lea Emerlyn</header>
             <p id = 'name-banner-role'>UX Designer @ JPMorgan</p>
-            <p id = 'name-banner-description'>Hello. This is some real text here. GoodBye.</p>
+            <p id = 'name-banner-description'>Studying Computer Science at the University of Pennsylvania</p>
         </>
     )
 }

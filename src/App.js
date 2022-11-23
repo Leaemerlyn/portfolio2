@@ -4,7 +4,8 @@ import {BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import {RecentProjects} from './RecentProjects';
 import {PastProjects} from './PastProjects';
 import {About} from './About';
-import {ProjectDetails} from './ProjectDetails'
+import {ProjectDetails} from './ProjectDetails';
+import {Footer} from './Footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path= '/About' element = {<About />}></Route>
             <Route path = '/Projects/:project' element = {<ProjectDetails/>}></Route>
           </Routes>
+          <Footer/>
         </div>
       </div>
     </div>
