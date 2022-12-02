@@ -7,6 +7,7 @@ import { PublicArt } from './ProjectPages/PublicArt';
 import { FirstPortfolio } from './ProjectPages/FirstPortfolio';
 import { SecondPortfolio } from './ProjectPages/SecondPortfolio';
 import { BunBun } from './ProjectPages/BunBun';
+import { Blockour } from './ProjectPages/Blockour';
 
 export function ProjectDetails(){
     let {project} = useParams();
@@ -31,6 +32,9 @@ export function ProjectDetails(){
 
         case 'BunBun' :
             return(<BunBun />)
+
+        case 'Blockour' :
+            return(<Blockour/>)
 
         default:
             return (<RecentProjects/>)

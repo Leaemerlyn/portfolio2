@@ -1,6 +1,6 @@
 export let ProjectCardData = {
-    Block : {
-        projectName : 'Block',
+    Blockour : {
+        projectName : 'Blockour',
         description: "Coming Soon",
         pills: ['Unity'],
         coverImage: require('./Assets/Rectangle 29.jpeg')
