@@ -1,4 +1,14 @@
 export let ProjectDetailsData = {
+    Jpm :{
+        title: 'JP Morgan Chase',
+        url: require('../Assets/ProjectCoverImages/JPMorgan-Chase.png'),
+        role: 'UX Designer',
+        time: 'July 2022 - Now',
+        team: 'Visual Designers, Software Engineers, Product Managers, Stakeholders',
+        tools: 'Figma',
+        overview: 'While I was a JP Morgan, I worked on several different UX research projects involving user interviews and usability tests. On my UX Design projects, I work with stakeholders and product manager to gather requirements and communicate design specifications to developers.'
+    },
+
     MedBuddy : {
         title: 'Med Buddy',
         url: require('../Assets/ProjectCoverImages/MedBuddyBanner.png'),
@@ -36,7 +46,7 @@ export let ProjectDetailsData = {
         time: 'January 2020 — May 2020',
         team: 'Michelle Lee, Michelle Tsang, Lauren Park, Yue (Carol) Jiang',
         tools: 'Figma',
-        overview: 'change this'
+        overview: 'My team created an app that allows users to find and engage with public art in their city.'
     },
 
     FirstPortfolio : {
@@ -56,7 +66,7 @@ export let ProjectDetailsData = {
         time: 'January 2020 — May 2020',
         team: 'Solo Project',
         tools: 'HTML/CSS, JavaScript, Bootstrap, Anime.js',
-        overview: 'This is the second portfolio that I made'
+        overview: 'This is the second portfolio that I coded. In addition to HTML/CSS/JS, I also learned how to use libraries such as anime.js and bootstrap.'
     },
 
     BunBun : {
@@ -66,6 +76,6 @@ export let ProjectDetailsData = {
         time: 'January 2020 — May 2020',
         team: 'Solo Project',
         tools: 'HTML/CSS, JavaScript',
-        overview: 'This is the first time I learned about session storage'
+        overview: 'This was the first website that I built using javascript and session storage. Try picking some cinnamon rolls and checking out! Depending on the type of sweets you choose, the ingredient list changes accordingly. When you check out, the cost of the cart changes depending on whether you select pickup or delivery.'
     }
 }

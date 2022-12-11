@@ -13,7 +13,8 @@ export function About(){
             </div>
             <div className = 'col-md-7 intro-text'>
                 <p id='hello-greeting'>Hello, I'm Lea!</p>
-                <p>Currently, I am a designer at JP Morgan Chase. Previously, I worked as a product designer at Sony PlayStation, PNC and Cardinal Health.</p>
+                <p>Currently, I am a designer at JP Morgan Chase. Previously, I worked as a product designer at Sony PlayStation, PNC and Cardinal Health. <br/><br/>
+                What I'm Learning at the Moment: Unity, C#, and C.</p>
                 <p>Reach out: leaodovia@gmail.com</p>
             </div>
         </div>            

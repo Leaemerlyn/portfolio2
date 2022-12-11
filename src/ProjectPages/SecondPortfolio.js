@@ -13,8 +13,16 @@ export function SecondPortfolio(){
             <hr/>
 
             <h1>Reflection</h1>
-            <p>change this</p>
-            <Button href={'https://leaemerlyn.com/'} buttonText = 'View First Portfolio Project'/>
+            <p>Some key designs that I wanted to implement were:
+                <ul>
+                    <li><p>Background changing colors</p></li>
+                    <li><p>Buttons change colors everytime you hover</p></li>
+                    <li><p>Bubbles floating down the screen</p></li>
+                    <li><p>User's cursor moves bubbles away</p></li>
+                </ul>
+                From a development perspective, this portfolio was a significant improvement over my first portfolio because there was a separation of concern and I also improved the responsiveness of the site. 
+            </p>
+            <Button href={'https://leaemerlyn.github.io/Old-Portfolio/'} buttonText = 'View First Portfolio Project'/>
         </div>
         </>
 

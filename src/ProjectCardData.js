@@ -1,8 +1,15 @@
 export let ProjectCardData = {
+    Jpm :{
+        projectName: 'JP Morgan',
+        description: 'Uncovering barriers that users face when using their mobile app.',
+        pills: ['UX Research' , 'UX Design', 'Visual Design'],
+        coverImage: require('./Assets/ProjectCoverImages/JPMorgan-Chase.png')
+    },
+
     Blockour : {
         projectName : 'Blockour',
-        description: "Coming Soon",
-        pills: ['Unity'],
+        description: "Project Coming Soon. I am working on a meditative game",
+        pills: ['Unity' , 'Game Development'],
         coverImage: require('./Assets/Rectangle 29.jpeg')
     },
 

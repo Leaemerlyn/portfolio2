@@ -8,6 +8,7 @@ import { FirstPortfolio } from './ProjectPages/FirstPortfolio';
 import { SecondPortfolio } from './ProjectPages/SecondPortfolio';
 import { BunBun } from './ProjectPages/BunBun';
 import { Blockour } from './ProjectPages/Blockour';
+import { Jpm } from './ProjectPages/Jpm.js';
 
 export function ProjectDetails(){
     let {project} = useParams();
@@ -35,6 +36,9 @@ export function ProjectDetails(){
 
         case 'Blockour' :
             return(<Blockour/>)
+
+        case 'Jpm' :
+            return(<Jpm/>)
 
         default:
             return (<RecentProjects/>)

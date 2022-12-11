@@ -13,7 +13,8 @@ export function FirstPortfolio(){
             <hr/>
 
             <h1>Reflection</h1>
-            <p>change this</p>
+            <p>For this portfolio, I only used vanilla HTML and CSS. The biggest challenge was making a vertical navigation bar. </p>
+            <Button href={'https://leaemerlyn.github.io/portfolio/'} buttonText ='View Second Portfolio'></Button>
         </div>
         </>
 
