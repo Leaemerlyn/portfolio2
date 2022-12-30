@@ -9,6 +9,7 @@ import { SecondPortfolio } from './ProjectPages/SecondPortfolio';
 import { BunBun } from './ProjectPages/BunBun';
 import { Blockour } from './ProjectPages/Blockour';
 import { Jpm } from './ProjectPages/Jpm.js';
+import { Kiavi } from './ProjectPages/Kiavi.js';
 
 export function ProjectDetails(){
     let {project} = useParams();
@@ -39,6 +40,9 @@ export function ProjectDetails(){
 
         case 'Jpm' :
             return(<Jpm/>)
+
+        case 'Kiavi' :
+            return(<Kiavi/>)
 
         default:
             return (<RecentProjects/>)

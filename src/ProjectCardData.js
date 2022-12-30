@@ -6,6 +6,13 @@ export let ProjectCardData = {
         coverImage: require('./Assets/ProjectCoverImages/JPMorgan-Chase.png')
     },
 
+    Kiavi: {
+        projectName: 'Kiavi',
+        description: 'Designing new offerings for real estate investors',
+        pills: ['UX Research'],
+        coverImage: require('./Assets/ProjectCoverImages/Kiavi.png')
+    },
+
     Blockour : {
         projectName : 'Blockour',
         description: "Project Coming Soon. I am working on a meditative game",

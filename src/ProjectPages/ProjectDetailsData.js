@@ -1,4 +1,14 @@
 export let ProjectDetailsData = {
+    Blockour:{
+        title: 'Blockour',
+        url: require('../Assets/Rectangle 29.jpeg'),
+        role: 'Designer?',
+        time: 'November 2022 - Now',
+        team: 'Thomas',
+        tools: 'Unity',
+        overview: 'Making Meditative Game'
+    },
+
     Jpm :{
         title: 'JP Morgan Chase',
         url: require('../Assets/ProjectCoverImages/JPMorgan-Chase.png'),
@@ -7,6 +17,16 @@ export let ProjectDetailsData = {
         team: 'Visual Designers, Software Engineers, Product Managers, Stakeholders',
         tools: 'Figma',
         overview: 'While I was a JP Morgan, I worked on several different UX research projects involving user interviews and usability tests. On my UX Design projects, I work with stakeholders and product manager to gather requirements and communicate design specifications to developers.'
+    },
+
+    Kiavi :{
+        title: 'Kiavi',
+        url: require('../Assets/ProjectCoverImages/KiaviBanner.png'),
+        role: 'UX Researcher',
+        time: 'Januaray 2022 - May 2022',
+        team: 'Vikitha Bezawada Yang Cheng, Jae Kim, Jennifer Lee',
+        tools: 'Figma',
+        overview: 'The goal of our project is to identify real estate investors’ pain points and ways that Kiavi can address them by using currently available data. We spoke to 28 REIs using directed storytelling, participatory journey mapping, contextual inquiry and speed dating interviews.'
     },
 
     MedBuddy : {
