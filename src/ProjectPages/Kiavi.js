@@ -10,13 +10,16 @@ export function Kiavi(){
             <ProjectDetailsIntro title= 'Kiavi'/>
             <hr/>
 
+
+            <h1>Learn about the project through the site</h1>
+            <Button href="https://hcii.cmu.edu/mhci/capstone/2022/kiavi/" buttonText='Project Website'/> <br/>
+            
+            <hr/>
+
             <h1>Research Findings Presentation</h1>
             <Button href={pdf} buttonText='Research Report'/> <br/>
             <Button href={pdf2} buttonText='Presentation Slides'/>
-            <hr/>
 
-            <h1>More Coming Soon</h1>
-    
         </div>
         </>
     )

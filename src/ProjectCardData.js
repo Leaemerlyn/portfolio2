@@ -1,4 +1,11 @@
 export let ProjectCardData = {
+    RecipeBook :{
+        projectName: 'Recipe Book',
+        description: 'Web Application that allows home cooks to record their favorite recipe',
+        pills: ["React", "Front-End"],
+        coverImage: require('./Assets/ProjectCoverImages/RecipeBook.png')
+    },
+
     Jpm :{
         projectName: 'JP Morgan',
         description: 'Uncovering barriers that users face when using their mobile app.',
@@ -13,12 +20,12 @@ export let ProjectCardData = {
         coverImage: require('./Assets/ProjectCoverImages/Kiavi.png')
     },
 
-    Blockour : {
-        projectName : 'Blockour',
-        description: "Project Coming Soon. I am working on a meditative game",
-        pills: ['Unity' , 'Game Development'],
-        coverImage: require('./Assets/Rectangle 29.jpeg')
-    },
+    // Blockour : {
+    //     projectName : 'Blockour',
+    //     description: "Project Coming Soon. I am working on a meditative game",
+    //     pills: ['Unity' , 'Game Development'],
+    //     coverImage: require('./Assets/Rectangle 29.jpeg')
+    // },
 
 
     MedBuddy : {

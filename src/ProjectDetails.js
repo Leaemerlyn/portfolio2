@@ -10,6 +10,7 @@ import { BunBun } from './ProjectPages/BunBun';
 import { Blockour } from './ProjectPages/Blockour';
 import { Jpm } from './ProjectPages/Jpm.js';
 import { Kiavi } from './ProjectPages/Kiavi.js';
+import { RecipeBook } from './ProjectPages/RecipeBook.js';
 
 export function ProjectDetails(){
     let {project} = useParams();
@@ -35,14 +36,17 @@ export function ProjectDetails(){
         case 'BunBun' :
             return(<BunBun />)
 
-        case 'Blockour' :
-            return(<Blockour/>)
+        // case 'Blockour' :
+        //     return(<Blockour/>)
 
         case 'Jpm' :
             return(<Jpm/>)
 
         case 'Kiavi' :
             return(<Kiavi/>)
+
+        case 'RecipeBook' :
+            return(<RecipeBook/>)
 
         default:
             return (<RecentProjects/>)

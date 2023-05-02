@@ -35,3 +35,7 @@ p{
   line-height: 1.7;
   font-family: 'Poppins';
 }
+
+ul, li{
+  font-family: "Poppins";
+}

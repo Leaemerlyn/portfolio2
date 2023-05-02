@@ -1,13 +1,23 @@
 export let ProjectDetailsData = {
-    Blockour:{
-        title: 'Blockour',
-        url: require('../Assets/Rectangle 29.jpeg'),
-        role: 'Designer?',
-        time: 'November 2022 - Now',
-        team: 'Thomas',
-        tools: 'Unity',
-        overview: 'Making Meditative Game'
+    RecipeBook :{
+        title: 'Recipe Book',
+        url: require('../Assets/ProjectCoverImages/RecipeBookBanner.png'),
+        role: 'Developer and Designer',
+        time: 'April 2023',
+        team: 'Solo',
+        tools: 'React, Semantic UI',
+        overview: 'I designed and developed a web app that allows home cooks to record their favorite recipes. I wanted to design it so that "what you see is what you get".'
     },
+
+    // Blockour:{
+    //     title: 'Blockour',
+    //     url: require('../Assets/Rectangle 29.jpeg'),
+    //     role: 'Designer?',
+    //     time: 'November 2022 - Now',
+    //     team: 'Thomas',
+    //     tools: 'Unity',
+    //     overview: 'Making Meditative Game'
+    // },
 
     Jpm :{
         title: 'JP Morgan Chase',
