@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.549e4d97.css",
-    "main.js": "/static/js/main.cb373ab0.js",
+    "main.css": "/static/css/main.8af8fe63.css",
+    "main.js": "/static/js/main.580516f9.js",
     "static/media/Presentation.pdf": "/static/media/Presentation.3c2756793e0135e5206f.pdf",
     "static/media/researchReport.pdf": "/static/media/researchReport.933f8aec353a8894f9b4.pdf",
     "static/media/roughCut.png": "/static/media/roughCut.06a8ce8ad5af0e3874af.png",
@@ -44,6 +44,7 @@
     "static/media/persona.png": "/static/media/persona.1a2e9a29496901128d24.png",
     "static/media/lo-fiOverview.png": "/static/media/lo-fiOverview.36ffa16590b34b010499.png",
     "static/media/recipeIdeas.png": "/static/media/recipeIdeas.2b8172d73778899c2b0d.png",
+    "static/media/RecipeBook.png": "/static/media/RecipeBook.89ed17491de81f766214.png",
     "static/media/narrowingScope.png": "/static/media/narrowingScope.ed7379d7c351b07327ca.png",
     "static/media/responsive.png": "/static/media/responsive.586a049fe4da4e06aaa7.png",
     "static/media/feedback1.png": "/static/media/feedback1.0c7d5c6942d179768b8f.png",
@@ -52,12 +53,12 @@
     "static/media/multipleCarts.png": "/static/media/multipleCarts.0e0765916e2eac07ee32.png",
     "static/media/BunBun.png": "/static/media/BunBun.e762e78d56b286f9629b.png",
     "static/media/journeyMap2.png": "/static/media/journeyMap2.b621524c7b6be7d038d7.png",
-    "static/media/Rectangle 29.jpeg": "/static/media/Rectangle 29.fdde600b82dfd289509c.jpeg",
     "static/media/journeyMap1.png": "/static/media/journeyMap1.b098fb6ca983cc73d73c.png",
     "static/media/mid-fiScreen.png": "/static/media/mid-fiScreen.eecd191d1c7c8fc31d19.png",
     "static/media/toneVoice.png": "/static/media/toneVoice.8e60a0651e8effee9cbf.png",
     "static/media/roughCutFeedback.png": "/static/media/roughCutFeedback.177aaa1ac433fa841777.png",
     "static/media/Kiavi.png": "/static/media/Kiavi.f37288d7d21568760cd8.png",
+    "static/media/RecipeBookBanner.png": "/static/media/RecipeBookBanner.6648389dfed60b4512b8.png",
     "static/media/lo-fiScreen.png": "/static/media/lo-fiScreen.13733a585031e9d97b9e.png",
     "static/media/storyBoardFeedback.png": "/static/media/storyBoardFeedback.cf8b25b79d6024779752.png",
     "static/media/substitution.png": "/static/media/substitution.6a77b64d310887173aae.png",
@@ -71,11 +72,11 @@
     "static/media/consumerGoal.png": "/static/media/consumerGoal.cb2ca52ec455aa032765.png",
     "static/media/lo-fiCrit.png": "/static/media/lo-fiCrit.e306b82b6bd7db7eba3f.png",
     "index.html": "/index.html",
-    "main.549e4d97.css.map": "/static/css/main.549e4d97.css.map",
-    "main.cb373ab0.js.map": "/static/js/main.cb373ab0.js.map"
+    "main.8af8fe63.css.map": "/static/css/main.8af8fe63.css.map",
+    "main.580516f9.js.map": "/static/js/main.580516f9.js.map"
   },
   "entrypoints": [
-    "static/css/main.549e4d97.css",
-    "static/js/main.cb373ab0.js"
+    "static/css/main.8af8fe63.css",
+    "static/js/main.580516f9.js"
   ]
 }
