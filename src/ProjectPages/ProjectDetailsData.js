@@ -22,11 +22,11 @@ export let ProjectDetailsData = {
     Jpm :{
         title: 'JP Morgan Chase',
         url: require('../Assets/ProjectCoverImages/JPMorgan-Chase.png'),
-        role: 'UX Designer',
+        role: 'Software Enginner, UX Designer',
         time: 'July 2022 - Now',
         team: 'Visual Designers, Software Engineers, Product Managers, Stakeholders',
-        tools: 'Figma',
-        overview: 'While I was a JP Morgan, I worked on several different UX research projects involving user interviews and usability tests. On my UX Design projects, I work with stakeholders and product manager to gather requirements and communicate design specifications to developers.'
+        tools: 'React, Python, TypeScript, Figma, Figma API',
+        overview: 'While I was a JP Morgan, I was responsible for designing and developing a full stack application to help UX Designers streamline their workflow. I also worked on several different UX research projects involving user interviews and usability tests. On my UX Design projects, I work with stakeholders and product manager to gather requirements and communicate design specifications to developers.'
     },
 
     Kiavi :{

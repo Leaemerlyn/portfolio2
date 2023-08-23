@@ -6,6 +6,10 @@ export function Jpm(){
         <div className='projectPageContainer'>
             <ProjectDetailsIntro title='Jpm'/>
             <hr/>
+            <h1>Software Engineering</h1>
+            <p>I designed, developed and tested full stack web applications for UX Designers. These apps are also available as a Figma Plugins. </p>
+            <hr/>
+
             <h1>UX Research</h1>
             <p>I worked on 2 different UX Research projects. I lead user interviews and created a research findings report with key findings and actionable recommendtions.</p>
             <hr/>
