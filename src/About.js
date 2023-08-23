@@ -13,8 +13,7 @@ export function About(){
             </div>
             <div className = 'col-md-7 intro-text'>
                 <p id='hello-greeting'>Hello, I'm Lea!</p>
-                <p>Currently, I am a designer at JP Morgan Chase. Previously, I worked as a product designer at Sony PlayStation, PNC and Cardinal Health. <br/><br/>
-                What I'm Learning at the Moment: Unity, C#, and C.</p>
+                <p>I am a software engineer at J.P. Morgan creating full stack applications. I primarily work with JavaScript, Python, Java, and TypeScript. Previously, I worked as a UX Designer for J.P. Morgan, PlayStation, PNC Bank and Cardinal Health.<br/><br/></p>
                 <p>Reach out: leaodovia@gmail.com</p>
             </div>
         </div>            
@@ -37,10 +36,11 @@ export function About(){
                     <span className ='about-heading2'>Programming</span><br/>
                     Python<br/>
                     JavaScript<br/>
+                    TypeScript<br/>
                     Java <br/>
                     HTML/CSS<br/>
-                    Boostrap<br/>
                     React<br/>
+                    C
                 </p>
             </div>
         </div>
