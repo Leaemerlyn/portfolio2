@@ -1,4 +1,14 @@
 export let ProjectDetailsData = {
+    PennResources :{
+        title: 'Penn Resources',
+        url: require('../Assets/ProjectCoverImages/PennResourcesBanner.png'),
+        role: 'Lead Developer and Designer',
+        time: 'May 2023 - July 2023',
+        team: 'Leven Cai, Ben Swanson, Abdullah Amer',
+        tools: 'React, RSuite, Firebase',
+        overview: 'Our team created a website that allows students to consolidate supplemental course resources. Penn students are able to add new resources by uploading a link and specifying the course associated with the resource. Any student will be able to view the resource.'
+    },
+
     RecipeBook :{
         title: 'Recipe Book',
         url: require('../Assets/ProjectCoverImages/RecipeBookBanner.png'),

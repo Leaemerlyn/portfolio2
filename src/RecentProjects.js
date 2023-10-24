@@ -28,6 +28,7 @@ export function RecentProjects() {
             <div className ='row'>
                 <div className = 'col-lg-12 main-horizontal-padding'>
                     {/* <ProjectCard title= 'Blockour'/> */}
+                    <ProjectCard title="PennResources"/>
                     <ProjectCard title="RecipeBook"/>
                     <ProjectCard title= 'Jpm' />
                     <ProjectCard title= 'Kiavi' />

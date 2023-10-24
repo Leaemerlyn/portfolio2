@@ -11,6 +11,7 @@ import { Blockour } from './ProjectPages/Blockour';
 import { Jpm } from './ProjectPages/Jpm.js';
 import { Kiavi } from './ProjectPages/Kiavi.js';
 import { RecipeBook } from './ProjectPages/RecipeBook.js';
+import { PennResources } from './ProjectPages/PennResources.js';
 
 export function ProjectDetails(){
     let {project} = useParams();
@@ -47,6 +48,9 @@ export function ProjectDetails(){
 
         case 'RecipeBook' :
             return(<RecipeBook/>)
+
+        case 'PennResources' :
+            return(<PennResources/>)
 
         default:
             return (<RecentProjects/>)
