@@ -13,8 +13,8 @@ export function About(){
             </div>
             <div className = 'col-md-7 intro-text'>
                 <p id='hello-greeting'>Hello, I'm Lea!</p>
-                <p>I am a software engineer at J.P. Morgan creating full stack applications. I primarily work with JavaScript, Python, Java, and TypeScript. Previously, I worked as a UX Designer for J.P. Morgan, PlayStation, PNC Bank and Cardinal Health.<br/><br/></p>
-                <p>Reach out: leaodovia@gmail.com</p>
+                <p>I am a creative technologist at J.P. Morgan creating full stack applications. I primarily work with JavaScript, Python, Java, and TypeScript. Previously, I worked as a UX Designer for J.P. Morgan, PlayStation, PNC Bank and Cardinal Health.<br/><br/></p>
+                <p>Reach out: leaemerlyn@gmail.com</p>
             </div>
         </div>            
         <hr></hr>
@@ -71,7 +71,7 @@ export function About(){
         <hr></hr>
         <div className ='row'>
             <div className='col-12 about-columns-padding'>
-                <p className ='about-headings'>Other Stuff About Me</p>
+                <p className ='about-headings'>Fun Fact</p>
                 <p>When I was in undergrad, I worked with my professor and a PhD student on a research paper about challenges of gig workers during the pandemic.</p>
                 <Button href={gigWorkPdf} buttonText='View CSCW Paper'/>
             </div>

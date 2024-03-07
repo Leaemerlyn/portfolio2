@@ -7,7 +7,7 @@ export function Jpm(){
             <ProjectDetailsIntro title='Jpm'/>
             <hr/>
             <h1>Software Engineering</h1>
-            <p>I designed, developed and tested full stack web applications for UX Designers. These apps are also available as a Figma Plugins. </p>
+            <p>I designed, developed and tested full stack web applications for UX Designers. These apps are available as both Figma Plugins and web application. I use React/Typescript on the front-end and Python/Flask on the backend. For storage, I use S3. </p>
             <hr/>
 
             <h1>UX Research</h1>
