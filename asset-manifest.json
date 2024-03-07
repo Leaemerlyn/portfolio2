@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8af8fe63.css",
-    "main.js": "/static/js/main.f469a895.js",
+    "main.js": "/static/js/main.e18ec0e6.js",
     "static/media/Presentation.pdf": "/static/media/Presentation.3c2756793e0135e5206f.pdf",
     "static/media/researchReport.pdf": "/static/media/researchReport.933f8aec353a8894f9b4.pdf",
     "static/media/roughCut.png": "/static/media/roughCut.06a8ce8ad5af0e3874af.png",
@@ -75,10 +75,10 @@
     "static/media/lo-fiCrit.png": "/static/media/lo-fiCrit.e306b82b6bd7db7eba3f.png",
     "index.html": "/index.html",
     "main.8af8fe63.css.map": "/static/css/main.8af8fe63.css.map",
-    "main.f469a895.js.map": "/static/js/main.f469a895.js.map"
+    "main.e18ec0e6.js.map": "/static/js/main.e18ec0e6.js.map"
   },
   "entrypoints": [
     "static/css/main.8af8fe63.css",
-    "static/js/main.f469a895.js"
+    "static/js/main.e18ec0e6.js"
   ]
 }
