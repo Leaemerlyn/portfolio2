@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.8af8fe63.css",
-    "main.js": "/static/js/main.e18ec0e6.js",
+    "main.js": "/static/js/main.3e65220a.js",
     "static/media/Presentation.pdf": "/static/media/Presentation.3c2756793e0135e5206f.pdf",
     "static/media/researchReport.pdf": "/static/media/researchReport.933f8aec353a8894f9b4.pdf",
     "static/media/roughCut.png": "/static/media/roughCut.06a8ce8ad5af0e3874af.png",
@@ -9,6 +9,7 @@
     "static/media/prototype1.png": "/static/media/prototype1.38af50f5a7f6804096d4.png",
     "static/media/refinedCut.png": "/static/media/refinedCut.d04c1613e20cddf431e9.png",
     "static/media/refinedVideoStoryboard.png": "/static/media/refinedVideoStoryboard.69bc34f5c6657e9c813e.png",
+    "static/media/PageNumbering.png": "/static/media/PageNumbering.9272a59e182010e209ff.png",
     "static/media/videoStoryboard.png": "/static/media/videoStoryboard.b609ff982cd884a2ff44.png",
     "static/media/crazy8.png": "/static/media/crazy8.d7e5a695ff70c4f89416.png",
     "static/media/wallWalk2.png": "/static/media/wallWalk2.d66c28a28f8a2c9f89bb.png",
@@ -24,6 +25,7 @@
     "static/media/mid-fiOverview.png": "/static/media/mid-fiOverview.748236e22ac1281de6cc.png",
     "static/media/reverse.png": "/static/media/reverse.cd3e0385bd5d818ad432.png",
     "static/media/cscw_2021_gigwork.pdf": "/static/media/cscw_2021_gigwork.f482adbf0327403187f1.pdf",
+    "static/media/PageNumberingBanner.png": "/static/media/PageNumberingBanner.d59c8e4e90b9d5efeb5c.png",
     "static/media/SecondPortfolioBanner.png": "/static/media/SecondPortfolioBanner.a280b367418db08e6b99.png",
     "static/media/affinityDiagram.png": "/static/media/affinityDiagram.e0cdc59e353c5e811db7.png",
     "static/media/KiaviBanner.png": "/static/media/KiaviBanner.81b25dc462958f68025e.png",
@@ -54,6 +56,7 @@
     "static/media/BunBun.png": "/static/media/BunBun.e762e78d56b286f9629b.png",
     "static/media/journeyMap2.png": "/static/media/journeyMap2.b621524c7b6be7d038d7.png",
     "static/media/journeyMap1.png": "/static/media/journeyMap1.b098fb6ca983cc73d73c.png",
+    "static/media/step3.png": "/static/media/step3.ee250494ba50404a4eb6.png",
     "static/media/mid-fiScreen.png": "/static/media/mid-fiScreen.eecd191d1c7c8fc31d19.png",
     "static/media/toneVoice.png": "/static/media/toneVoice.8e60a0651e8effee9cbf.png",
     "static/media/roughCutFeedback.png": "/static/media/roughCutFeedback.177aaa1ac433fa841777.png",
@@ -66,19 +69,22 @@
     "static/media/SecondPortfolio.png": "/static/media/SecondPortfolio.229248bb812af7f9d3dd.png",
     "static/media/microinteractions.png": "/static/media/microinteractions.e3e28bec34b9cd57ffc0.png",
     "static/media/OptimaLTPro-Roman.otf": "/static/media/OptimaLTPro-Roman.01f2ca7a562b667ced34.otf",
+    "static/media/step2.png": "/static/media/step2.193c5594900c966d9eea.png",
     "static/media/conceptMapWords.png": "/static/media/conceptMapWords.804c2c9cc8a0dad91d44.png",
     "static/media/PennResources.png": "/static/media/PennResources.cb3c6f0f973ebd0d3ba8.png",
     "static/media/goalFlow.png": "/static/media/goalFlow.3f196271c4161bb86791.png",
     "static/media/windstaxDomain.png": "/static/media/windstaxDomain.54dc4303da36018fe1e8.png",
     "static/media/Lea_Emerlyn_Resume.pdf": "/static/media/Lea_Emerlyn_Resume.1fcf9d947b6a536fe147.pdf",
+    "static/media/step4.png": "/static/media/step4.da75aa6d9dbd0a6a1dc4.png",
     "static/media/consumerGoal.png": "/static/media/consumerGoal.cb2ca52ec455aa032765.png",
     "static/media/lo-fiCrit.png": "/static/media/lo-fiCrit.e306b82b6bd7db7eba3f.png",
+    "static/media/step1.png": "/static/media/step1.d82d19bfdce37a7b29f5.png",
     "index.html": "/index.html",
     "main.8af8fe63.css.map": "/static/css/main.8af8fe63.css.map",
-    "main.e18ec0e6.js.map": "/static/js/main.e18ec0e6.js.map"
+    "main.3e65220a.js.map": "/static/js/main.3e65220a.js.map"
   },
   "entrypoints": [
     "static/css/main.8af8fe63.css",
-    "static/js/main.e18ec0e6.js"
+    "static/js/main.3e65220a.js"
   ]
 }
