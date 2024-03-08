@@ -1,4 +1,10 @@
 export let ProjectCardData = {
+    PageNumbering: {
+        projectName: 'Page Numbering',
+        description: 'Generate page numbers for slide decks in figma',
+        pills: ["Figma Plugin", "Figma API"],
+        coverImage: require('./Assets/ProjectCoverImages/PageNumbering.png')
+    },
     PennResources :{
         projectName: 'Penn Resources',
         description: 'Crowd source supplemental resources for courses at UPenn',

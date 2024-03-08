@@ -7,15 +7,17 @@ import { PublicArt } from './ProjectPages/PublicArt';
 import { FirstPortfolio } from './ProjectPages/FirstPortfolio';
 import { SecondPortfolio } from './ProjectPages/SecondPortfolio';
 import { BunBun } from './ProjectPages/BunBun';
-import { Blockour } from './ProjectPages/Blockour';
 import { Jpm } from './ProjectPages/Jpm.js';
 import { Kiavi } from './ProjectPages/Kiavi.js';
 import { RecipeBook } from './ProjectPages/RecipeBook.js';
 import { PennResources } from './ProjectPages/PennResources.js';
+import { PageNumbering } from './ProjectPages/PageNumbering.js';
 
 export function ProjectDetails(){
     let {project} = useParams();
     switch(project){
+        case 'PageNumbering':
+            return (<PageNumbering/>)
         case 'MedBuddy':
             return (<MedBuddy/>)
 
@@ -36,9 +38,6 @@ export function ProjectDetails(){
 
         case 'BunBun' :
             return(<BunBun />)
-
-        // case 'Blockour' :
-        //     return(<Blockour/>)
 
         case 'Jpm' :
             return(<Jpm/>)

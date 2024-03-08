@@ -1,4 +1,14 @@
 export let ProjectDetailsData = {
+    PageNumbering: {
+        title: 'Page Numbering',
+        url: require('../Assets/ProjectCoverImages/PageNumberingBanner.png'),
+        role: 'Solo Developer',
+        time: 'March 2024',
+        team: 'Solo',
+        tools: 'Figma API',
+        overview: 'Many designers prefer to use Figma to create presentation slide decks. However, one challenge with using Figma is that it can be difficult to add page numbers. It is especially difficult when they rearrange slides because they would then need to re-number all of the slides. I created a Figma Plugin in order to solve this problem.'
+    },
+    
     PennResources :{
         title: 'Penn Resources',
         url: require('../Assets/ProjectCoverImages/PennResourcesBanner.png'),
