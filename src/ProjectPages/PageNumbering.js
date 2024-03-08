@@ -31,12 +31,16 @@ export function PageNumbering(){
 
             <img className='img-fluid img-responsive' src={require('./pageNumbering/step3.png')} alt='step3'/>
 
+            <p>Slides are numbered in order. The order goes from left to right then top to bottom</p>
+
+            <img className='img-fluid img-responsive' src={require('./pageNumbering/step4.png')} alt='step4'/>
             <hr/>
 
             <h1>Benefits</h1>
             <ul>
                 <li>Designers can customize the look of their page numbers</li>
                 <li>When slides are rearranged, they can generate page numbers with one click</li>
+                <li>Designers can choose what page number to start at</li>
             </ul>
 
         </div>
