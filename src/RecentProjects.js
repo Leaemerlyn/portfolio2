@@ -16,7 +16,7 @@ export function RecentProjects() {
                     <div className = 'row mx-0 button-collection'>
                         <Button href={pdf} buttonText='Resume'/>
                         <Button href={'https://www.linkedin.com/in/lea-emerlyn-7b8170168/'} buttonText = 'LinkedIn'/>
-                        <Button href={'mailTo:leaodovia@gmail.com'} buttonText = 'Email'/>
+                        <Button href={'mailTo:leaemerlyn@gmail.com'} buttonText = 'Email'/>
                     </div>
 
                 </div>
