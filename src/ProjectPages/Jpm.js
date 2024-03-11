@@ -15,7 +15,7 @@ export function Jpm(){
             <hr/>
 
             <h1>UX Design</h1>
-            <p>For UX Design, I worked on improving existing features and adding new features based on the user feedback that we recieved from clients.</p>
+            <p>I created a brand new design system for the JP Morgan Markets Mobile App. I created a toolkit for both iOS and Andriod users.</p>
 
             <hr></hr>
 

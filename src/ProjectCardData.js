@@ -8,7 +8,7 @@ export let ProjectCardData = {
     PennResources :{
         projectName: 'Penn Resources',
         description: 'Crowd source supplemental resources for courses at UPenn',
-        pills: ["React", "Firebase"],
+        pills: ["React", "Firebase", "Responsive Design"],
         coverImage: require('./Assets/ProjectCoverImages/PennResources.png')
     },
 
