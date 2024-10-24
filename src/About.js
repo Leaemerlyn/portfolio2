@@ -52,7 +52,7 @@ export function About(){
                     <span className='about-heading2'>Master's</span> <br/>
                     University of Pennsylvania<br/>
                     Computer Science<br/><br/>
-                    Expected Grduation: 2024<br/>
+                    Graduated: 2024<br/>
                 </p>
             </div>
             <div className='col-6 about-columns-padding'>
